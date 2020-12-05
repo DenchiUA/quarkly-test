@@ -37,14 +37,14 @@ const MenuItem = props => {
 	return <Box {...rest}>
 		<Icon {...override("icon")} />
 		<Link {...override("link")} />
-		{children} test
+		{children}
 	</Box>;
 };
 
 Object.assign(MenuItem, { ...Box,
 	defaultProps,
 	overrides
-});
+}); // export default MenuItem
 
 export default atomize(MenuItem)({
 	name: "MenuItem",

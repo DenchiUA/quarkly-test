@@ -41,6 +41,7 @@ export default (() => {
 				</Box>
 				<Box quarkly-title="List">
 					<Components.MenuItem />
+					<Components.MenuItem />
 				</Box>
 			</Box>
 			<Box display="flex" width="100%" min-height="0px" background="--color-lightD2" />
